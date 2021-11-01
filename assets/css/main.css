@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background: #f3f3f3;
+  color: #565656;
+  line-height: 1.5715;
+  font-feature-settings: "tnum", "tnum";
+}
+
+main {
+  box-sizing: border-box;
+  background: #fbfbfb;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  max-width: 1500px;
+  margin: 40px auto;
+  padding: 3rem;
+  text-align: justify;
+  column-gap: 2rem;
+  font-size: 28px;
+  text-align: justify;
+  color: #565656;
+}
+
+.heading {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.date {
+  background: linear-gradient(180deg, rgba(255, 132, 24, 0.8) 0%, #ff8418 100%);
+  mix-blend-mode: darken;
+  box-shadow: 0px 0px 5px rgba(188, 188, 188, 0.5);
+  border-radius: 4px;
+  width: 112px;
+  height: 144px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.navigation {
+  font-variant: tabulaar-nums;
+  box-sizing: border-box;
+  background: #1890ff;
+  padding: 0 calc((100% - 1500px) / 2);
+  display: flex;
+  justify-content: center;
+  height: 66px;
+  box-shadow: 0 0 5px 0px #d2d2d2;
+}
+
+.navigation__bar {
+  color: #565656;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  box-sizing: border-box;
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background: #ffffff;
+}
+
+.navigation__logo {
+  line-height: 1.5715;
+  color: #1890ff;
+  cursor: pointer;
+  vertical-align: middle;
+  border-style: none;
+  width: 175px;
+  height: 50px;
+  aspect-ratio: 175/50;
+  background-color: #ffffff;
+  margin: auto 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 200px;
+  vertical-align: middle;
+}
+
+footer {
+  display: flex;
+  flex-flow: row;
+  max-width: 1500px;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #1890ff;
+  margin: 10rem auto 2rem auto;
+}
+
+.links {
+  display: flex;
+  column-gap: 1rem;
+}
+
+a,
+a:active,
+a:visited {
+  color: #565656;
+}
+
+.rss-subscribe {
+  margin: 0;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.post-list-heading {
+  margin-top: 0;
+}
