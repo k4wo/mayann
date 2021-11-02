@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby "2.7.4"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -14,11 +13,6 @@ gem "jekyll", "~> 4.2.1"
 gem 'jekyll-sitemap'
 gem 'jekyll-twitter-plugin'
 
-# for deployment
-gem "rack-jekyll"
-gem 'rake'
-gem 'puma'
-
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -26,3 +20,6 @@ gem 'puma'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
+
+gem "rake"
+ruby "2.6.3"
