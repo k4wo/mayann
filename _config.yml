@@ -29,7 +29,7 @@ twitter_username: mayannApp
 github_username: k4wo
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
