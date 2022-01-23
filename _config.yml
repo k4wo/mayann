@@ -23,8 +23,8 @@ email: karol.wojdyla@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Create and download testing data for your app with free random data generator tool in CSV, JSON, 
   and SQL formats. Supports MySQL, PostgreSQL, and MariaDB.
-baseurl: "https://blog.mayann.app" # the subpath of your site, e.g. /blog
-url: "https://mayann.app" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://blog.mayann.app" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mayannApp
 github_username: k4wo
 
