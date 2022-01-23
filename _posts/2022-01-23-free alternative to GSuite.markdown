@@ -13,7 +13,7 @@ This solution gives me all the advantages of GMail and I use my domain. This is 
 
 Setting up [Cloudflare Email Routing](https://developers.cloudflare.com/email-routing/enable-email-routing) is easy. You enter the alias and the address to which the email is to be redirected, and basically that's it.
 
-![Cloudflare Email Routing page screenshot](../assets/images/cloudflare_email_routing.png)
+![Cloudflare Email Routing page screenshot](/assets/images/cloudflare_email_routing.png)
 
-This is an article from the series on how to maintain an indie startup at a minimum cost, in the next episode I will write how I keep a blog for free.
+This is an article from the series on how to maintain an indie startup at a minimum cost, in the next episode I will write how I keep a blog for free. Everything I write about is tested on my [random data generator](https://mayann.app). #shortAndToThePoint
 
