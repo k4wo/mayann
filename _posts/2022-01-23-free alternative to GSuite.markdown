@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Free alternative to GSuite"
+description: "Google closes GSuite and from now all accounts will be transferred to Google Workspace, so we are looking for an alternative"
 date: 2022-01-23 22:50:21 +0200
 categories: services
 ---
