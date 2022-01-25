@@ -17,4 +17,4 @@ Setting up [Cloudflare Email Routing](https://developers.cloudflare.com/email-ro
 
 This is an article from the series on how to maintain an indie startup at a minimum cost, in the next episode I will write how I keep a blog for free. Everything I write about is tested on my [random data generator](https://mayann.app) indie startup.
 
-##### #shortAndToThePoint
+**#shortAndToThePoint**
