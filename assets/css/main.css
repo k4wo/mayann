@@ -187,3 +187,12 @@ footer {
     display: none;
   }
 }
+
+.post-list {
+  list-style-type: none;
+  min-height: 55vh;
+}
+
+.rss-subscribe {
+  text-align: right;
+}
