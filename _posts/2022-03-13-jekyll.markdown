@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Jekyll"
+description: "How to easy and for free create a blog"
+date: 2022-03-13 22:35:21 +0200
+categories: services
+---
+
+Almost everyone who wants to promote their product is faced with the dilemma of how to solve the blog topic - set it up on some platform or use its own server. It seems that it will be easier and faster to use a dedicated platform, but it will be more fun to do it yourself and have a topic for the entry. And that's what this article is about.
+
+I needed something really simple - a static page that could be quickly styled and that’s all. I don't know why, but Jekyll came to my mind, and I've been sticking to that from the beginning. It's great popularity, a multitude of addons and the number of articles and guides not estimated in detail are its other advantages.
+
+Okay, but where to host your own blog? The easiest and fastest way would be to use Github Pages, but for some reason this solution failed and I chose Heroku at the beginning. It seemed pretty reasonable, easy integration with Github, the server setup will be up quickly, and you will probably get a free tier. However, this solution quickly turned out to be below my expectations. The Heroku server went to sleep after some time of inactivity. As a result, when the page was opened, there was a visible lag, the page was slowly loading, so slowly that it was irritating. With my volume of visits, this is not a problem because I am the only one who visits there, but it was what annoyed me the most. That's why I decided to look for something else and the choice fell on [Cloudflare Pages](https://developers.cloudflare.com/pages/framework-guides/deploy-a-jekyll-site). I was convinced by the simplicity, speed of operation, and the fact that I use several solutions provided by Cloudflare.
+
+In the next few paragraphs I will try to briefly describe how to install Jekyll on a Mac with a fish shell. However, if you are using a different operating system or a different shell [check the documentation](https://jekyllrb.com/docs/installation/), which describes exactly how to install Jekyll on another OS.
+
+I don't think Mac users need to be introduced to Homebrew, so I'll get straight to the point and start by installing Ruby:
+```shell
+brew install ruby@2.7
+```
+
+Then you need to add the path to the variable `PATH`. In the case of fish shell it is enough to copy the command below to the console, in fact it's the only difference between the official documentation (which describes bash) and fish.
+```shell
+echo 'fish_add_path /usr/local/opt/ruby@2.7/bin' >> ~/.config/fish/config.fish
+```
+
+Now it's time for the Gem package manager
+```shell
+sudo gem install bundler
+```
+
+At the very end, we install Jekyll:
+```shell
+sudo gem install -n /usr/local/bin/ jekyll
+```
+
+I assume you already have a Github repository for your blog. [I created a separate repo for this purpose](https://github.com/k4wo/mayann), I will also use Discussions as a form of contact with users and maybe in the future I will add [comments](https://utteranc.es/ ) that are based on GH Issues.
+
+Now perhaps the most enjoyable part, Cloudflare Pages configuration and first deployment. Navigate to Pages, then click on Create Project, log in to Github or Gitlab and create a blog in 3 steps:
+* Select repository
+* Set up builds and deployments
+* Deploy site
+
+![Cloudflare Deploy site page screenshot](/assets/images/deploy-site.png)
+
+The whole process is intuitive and fast, so I won't spend much time on it. The idea was to show that creating a blog is fabulously easy and you can use Cloudflare for that.
+
+
+**#shortAndToThePoint**

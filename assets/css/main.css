@@ -196,3 +196,9 @@ footer {
 .rss-subscribe {
   text-align: right;
 }
+
+code {
+  background: #e9e9e9;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
